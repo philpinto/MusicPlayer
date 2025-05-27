@@ -17,6 +17,15 @@
             app:title="@string/app_name"
             app:titleTextColor="@android:color/white"/>
 
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/serviceTabs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="?attr/colorPrimary"
+            app:tabTextColor="@android:color/white"
+            app:tabSelectedTextColor="@android:color/white"
+            app:tabIndicatorColor="@android:color/white"/>
+
     </com.google.android.material.appbar.AppBarLayout>
 
     <androidx.constraintlayout.widget.ConstraintLayout
